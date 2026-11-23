@@ -1,6 +1,28 @@
+# Local configuration and credentials
 .env
-.claude
-CLAUDE.md
+.env.*
+!.env.example
+src/main/resources/application-local.properties
 bench/observability/mysqld_exporter.my.cnf
+
+# Maven output and logs
+target/
+*.log
+logs/
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# Operating system and local assistant files
 .DS_Store
+Thumbs.db
+.claude/
+
+# Local recordings
 *.mp4
