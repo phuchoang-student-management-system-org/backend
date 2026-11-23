@@ -35,3 +35,9 @@ Recent history favors short, scoped subjects such as `feat(*)`, `fix(*)`, `docs(
 ## Security & Configuration
 
 Keep local credentials in `.env`, which is ignored by Git. Set a unique `INITIAL_PASSWORD_KEY` outside development; the value in `.env.example` is only a local default. Review `application-prod.properties` when changing authentication, demo accounts, or actuator exposure.
+
+## Relevant project.
+
+You can find the backend and document in [frontend](../frontend/) and [document](../docs/).
+
+If you need them and can't find them. Clone it from [frontend](https://github.com/phuchoang-student-management-system-org/frontend.git) and [document](https://github.com/phuchoang-student-management-system-org/docs.git) to the directories above.
