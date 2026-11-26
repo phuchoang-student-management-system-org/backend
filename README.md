@@ -1,5 +1,11 @@
 # Student Management System API
 
+## Demo Recording
+
+A short walkthrough covering all four staff roles — Registrar, Librarian, Course Admin, and System Admin — recorded end-to-end against a live instance of the app.
+
+[Demo Youtube](https://youtu.be/vD3ChtpMnwQ)
+
 ## What is this?
 
 This repository contains the backend for a student management system. It is a Java 21 and Spring Boot API backed by MySQL. The application exposes versioned HTTP endpoints under `/api/v1`, uses Flyway for database migrations, and organizes code by business module.
